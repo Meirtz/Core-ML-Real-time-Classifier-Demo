@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27389C761EE7E24600BCACC5 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 27389C751EE7E24600BCACC5 /* GoogLeNetPlaces.mlmodel */; };
 		276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D536A1EE7C2370020D61F /* MZImageConvertor.m */; };
 		C3E867761E1488470042F78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867751E1488470042F78A /* AppDelegate.swift */; };
 		C3E867781E1488470042F78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867771E1488470042F78A /* ViewController.swift */; };
@@ -16,13 +15,10 @@
 		C3E867801E1488470042F78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */; };
 		C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867871E14898D0042F78A /* FrameExtractor.swift */; };
 		FEAE1DD81EE7A895006FAAEA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276ACBED1EE723430094E61B /* Resnet50.mlmodel */; };
-		FEAE1DD91EE7A899006FAAEA /* MarsHabitatPricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276ACBF01EE725260094E61B /* MarsHabitatPricer.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27389C751EE7E24600BCACC5 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		276ACBED1EE723430094E61B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
-		276ACBF01EE725260094E61B /* MarsHabitatPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MarsHabitatPricer.mlmodel; sourceTree = "<group>"; };
 		276D53681EE7C1FF0020D61F /* MZImageConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZImageConvertor.h; sourceTree = "<group>"; };
 		276D53691EE7C2370020D61F /* FrameExtraction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrameExtraction-Bridging-Header.h"; sourceTree = "<group>"; };
 		276D536A1EE7C2370020D61F /* MZImageConvertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZImageConvertor.m; sourceTree = "<group>"; };
@@ -50,8 +46,6 @@
 		276ACBEC1EE723430094E61B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				27389C751EE7E24600BCACC5 /* GoogLeNetPlaces.mlmodel */,
-				276ACBF01EE725260094E61B /* MarsHabitatPricer.mlmodel */,
 				276ACBED1EE723430094E61B /* Resnet50.mlmodel */,
 			);
 			path = Resources;
@@ -169,9 +163,7 @@
 				276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */,
 				C3E867781E1488470042F78A /* ViewController.swift in Sources */,
 				FEAE1DD81EE7A895006FAAEA /* Resnet50.mlmodel in Sources */,
-				FEAE1DD91EE7A899006FAAEA /* MarsHabitatPricer.mlmodel in Sources */,
 				C3E867761E1488470042F78A /* AppDelegate.swift in Sources */,
-				27389C761EE7E24600BCACC5 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

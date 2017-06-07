@@ -7,10 +7,8 @@ import UIKit
 import CoreML
 
 class ViewController: UIViewController, FrameExtractorDelegate {
-    
-    let newImageSize:CGFloat = 224.0
-    let newHeight:CGFloat = newImageSize
-    let newWidth:CGFloat = newImageSize
+    let newHeight:CGFloat = 224.0
+    let newWidth:CGFloat = 224.0
     
     var frameExtractor: FrameExtractor!
     let model = Resnet50()
