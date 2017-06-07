@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D536A1EE7C2370020D61F /* MZImageConvertor.m */; };
+		27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A58D1EE84D0B0028A6C9 /* ViewController.swift */; };
 		C3E867761E1488470042F78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867751E1488470042F78A /* AppDelegate.swift */; };
 		C3E8677B1E1488470042F78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E867791E1488470042F78A /* Main.storyboard */; };
 		C3E8677D1E1488470042F78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677C1E1488470042F78A /* Assets.xcassets */; };
@@ -158,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */,
 				C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */,
 				276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */,
 				FEAE1DD81EE7A895006FAAEA /* Resnet50.mlmodel in Sources */,
@@ -311,6 +313,7 @@
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -332,6 +335,7 @@
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

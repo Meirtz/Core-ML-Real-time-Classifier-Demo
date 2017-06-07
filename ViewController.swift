@@ -60,7 +60,7 @@ class ViewController: UIViewController, FrameExtractorDelegate {
                     }
                     DispatchQueue.main.async {
                         self.resultLabel.text = self.labelWithMaxProb
-                        self.resultProbLabel.text = String(format:"%.4f /%", self.maxProb)
+                        self.resultProbLabel.text = String(format:"%.4f%%", self.maxProb)
                     }
                 }
             }
@@ -76,8 +76,7 @@ class ViewController: UIViewController, FrameExtractorDelegate {
 
         let status = CVPixelBufferCreate(kCFAllocatorDefault, Int(frameWidth), Int(frameHeight), kCVPixelFormatType_32ARGB, options as CFDictionary?, &pxbuffer)
         assert(status == kCVReturnSuccess && pxbuffer != nil, "newPixelBuffer failed")
-
-
+        
         CVPixelBufferLockBaseAddress(pxbuffer!, CVPixelBufferLockFlags(rawValue: 0))
         let pxdata = CVPixelBufferGetBaseAddress(pxbuffer!)
         let rgbColorSpace = CGColorSpaceCreateDeviceRGB()
