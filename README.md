@@ -2,7 +2,9 @@
 
 A real-time classifier demo using Core ML and Resnet50 model on iOS 11.
 
-![Demo](./demo.PNG | width=100)
+
+
+<img src="./demo.PNG" width="280">
 
 
 
