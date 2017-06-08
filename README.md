@@ -4,7 +4,7 @@ A real-time classifier demo using Core ML and Resnet50 model on iOS 11.
 
 
 
-<img src="./demo.PNG" width="280">
+<img src="./demo.JPG" width="300">
 
 
 
@@ -24,7 +24,7 @@ You can use other model as well, but you need to convert other model to .mlmodel
 
 ## Warning 
 
-Since forward propagation of nerual network require many hardware resources, you may encounter a number of thermal and performance issues, and don't turn on low-battery mode while runing this app in order to gain better performance.
+Since real-time forward propagation of nerual network require many hardware resources, you may encounter a number of thermal and performance issues, and don't turn on low-battery mode while runing this app in order to gain better performance.
 
 ## License
 
