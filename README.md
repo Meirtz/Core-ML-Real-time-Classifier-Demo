@@ -1,12 +1,24 @@
 # Core ML Real-time Classifier Demo
 
-A real-time classifier demo using Core ML and pre-trained Resnet50 model on iOS 11.
+A real-time classifier demo using Core ML and Resnet50 model on iOS 11.
+
+![Demo](./demo.PNG | width=100)
+
+
 
 ## Installation
 
 Clone the project and download the [Resnet50 model](https://docs-assets.developer.apple.com/coreml/models/Resnet50.mlmodel), drag it into  the project and Xcode will handle the rest (such as generating .swift file)! 
 
 You can use other model as well, but you need to convert other model to .mlmodel file using [Core ML Tools](https://pypi.python.org/pypi/coremltools).
+
+
+
+## TODO
+
+- [ ] Add a simple tutorial about how to train you own classifier using [Keras](https://keras.io/) and [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset;
+- [ ] Add YOLO9000 Model for real-time object detection;
+- [ ] Add SDD model for real-time object detection.
 
 ## Warning 
 
