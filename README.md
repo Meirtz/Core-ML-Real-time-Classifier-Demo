@@ -4,7 +4,7 @@ A real-time classifier demo using Core ML and Resnet50 model on iOS 11.
 
 
 
-<img src="./demo.JPG" width="300">
+<img src="./demo.jpg" width="300">
 
 
 
