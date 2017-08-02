@@ -19,7 +19,7 @@ You can use other model as well, but you need to convert other model to .mlmodel
 ## TODO
 
 - [ ] Add a simple tutorial about how to train you own classifier using [Keras](https://keras.io/) and [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset;
-- [ ] Add YOLO9000 Model for real-time object detection;
+~~- [ ] Add YOLO9000 Model for real-time object detection;~~ check [YOLO-CoreML-MPSNNGraph](https://github.com/hollance/YOLO-CoreML-MPSNNGraph)
 - [ ] Add SDD model for real-time object detection.
 
 ## Warning 
