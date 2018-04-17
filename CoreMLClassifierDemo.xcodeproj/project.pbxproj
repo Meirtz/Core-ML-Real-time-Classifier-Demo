@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276A36062085E8A900506A86 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276A36052085E8A900506A86 /* Resnet50.mlmodel */; };
 		276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D536A1EE7C2370020D61F /* MZImageConvertor.m */; };
 		27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A58D1EE84D0B0028A6C9 /* ViewController.swift */; };
 		C3E867761E1488470042F78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867751E1488470042F78A /* AppDelegate.swift */; };
@@ -14,11 +15,10 @@
 		C3E8677D1E1488470042F78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677C1E1488470042F78A /* Assets.xcassets */; };
 		C3E867801E1488470042F78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */; };
 		C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867871E14898D0042F78A /* FrameExtractor.swift */; };
-		FEAE1DD81EE7A895006FAAEA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276ACBED1EE723430094E61B /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		276ACBED1EE723430094E61B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		276A36052085E8A900506A86 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		276D53681EE7C1FF0020D61F /* MZImageConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZImageConvertor.h; sourceTree = "<group>"; };
 		276D53691EE7C2370020D61F /* FrameExtraction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrameExtraction-Bridging-Header.h"; sourceTree = "<group>"; };
 		276D536A1EE7C2370020D61F /* MZImageConvertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZImageConvertor.m; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		276ACBEC1EE723430094E61B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				276ACBED1EE723430094E61B /* Resnet50.mlmodel */,
+				276A36052085E8A900506A86 /* Resnet50.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 				TargetAttributes = {
 					C3E867711E1488470042F78A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = DH3RDV3B26;
+						DevelopmentTeam = Z5898HWDK6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,7 +162,7 @@
 				27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */,
 				C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */,
 				276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */,
-				FEAE1DD81EE7A895006FAAEA /* Resnet50.mlmodel in Sources */,
+				276A36062085E8A900506A86 /* Resnet50.mlmodel in Sources */,
 				C3E867761E1488470042F78A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,11 +302,11 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COREML_CODEGEN_LANGUAGE = Swift;
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
-				DEVELOPMENT_TEAM = DH3RDV3B26;
+				DEVELOPMENT_TEAM = Z5898HWDK6;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirtz.CMLCD;
+				PRODUCT_BUNDLE_IDENTIFIER = meirtz.CMLCD2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -325,11 +325,11 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COREML_CODEGEN_LANGUAGE = Swift;
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
-				DEVELOPMENT_TEAM = DH3RDV3B26;
+				DEVELOPMENT_TEAM = Z5898HWDK6;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirtz.CMLCD;
+				PRODUCT_BUNDLE_IDENTIFIER = meirtz.CMLCD2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
